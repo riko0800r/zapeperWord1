@@ -1,0 +1,19 @@
+import os
+import pygame
+
+dir_principal = os.path.dirname(__file__)
+dirIMG= os.path.join(dir_principal,"img_spr")
+pygame.init()
+
+sprites = pygame.image.load(os.path.join(dirIMG,"sprites.png"))
+
+
+
+tela = pygame.display.set_mode((100,100))
+
+while True:
+    
+    pygame.display.update()
+    
+    
+    
